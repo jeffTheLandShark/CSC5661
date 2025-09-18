@@ -7,14 +7,14 @@
 \lstnewenvironment{verbatim}{\lstset{breaklines,basicstyle=\ttfamily}}{}
 \usepackage{amsmath}
 
-\title{TITLE}
+\title{Contextual Bandits}
 \author{Leigh Goetsch}
-\prof{Dr. PROF}
-\className{CLASS}
-\classCode{XXX 0000}
-\semester{TERM YEAR}
-\submissionDate{___________/2025}
-\labWeek{1__________}
+\prof{Dr. Jeremy Kedziora}
+\className{Reinforcement Learning}
+\classCode{CSC 5661}
+\semester{Fall 2025}
+\submissionDate{09/16/2025}
+\labWeek{2}
 % \laboratoryDate{___________/2025}
 
 \begin{document}
@@ -24,12 +24,34 @@
 % \tableofcontents
 
 % if you want to use multicols:
-% \begin{multicols*}{2}
-% \raggedcolumns
+\begin{multicols*}{2}
+\raggedcolumns
 
-% \section{SECTION 1}
+\section{Introduction}
+The Multi-Armed Bandit problem is a classing reinforcement learning problem where an agent is provided multiple options that each provide a reward that is drawn from an unknown probability distribution. Each option is independent of the state, so the order of select does not matter. The goal is to maximize the cumulative reward over a series of trials. \footnote{1. Define the MAB problem and provide an example where the MAB framework can be applied.} This problem demonstrations the exploration-exploitation tradeoff, balancing between exploring different options to gain more information and exploiting your best known option.
 
-% \end{multicols*}
+\section{Methods}
+There are 
+
+\footnote{2. In what situations might a purely greedy strategy (always choosing the arm with the highest estimated reward) perform poorly? Provide an example scenario.}
+
+\footnote{3. Consider the performance of the A/B/n testing algorithm (explore then commit). If you were to run this many times with various values of T how often would the algorithm correctly identify the best action and how would this depend on T?}
+
+\section{Approach}
+\footnote{4. How does the Contextual Bandit generator class work? Add docstrings and comments to the functions in your code and answer this question in your report.}
+
+
+\footnote{6. Explain how you set your contextual bandit agent up. What are the details of how you incorporated the function approximators?}
+
+\section{Results and Discussion}
+\footnote{5. Create a bar chart plot of the rewards for the experiments run in section 2.3. What should you expect the average reward to be in theory? How close do your plots come to this and how does this relate to the number of turns?}
+
+\footnote{7. Compare the performance of the CB for the different choices of b and $\varepsilon$ by plotting the average reward over time that you computed. How do b and $\varepsilon$ affect the CB agent?}
+
+\footnote{8. What advantages do you think the CB agent might have over simply treating this as a multiclass supervised machine learning problem?}
+
+
+\end{multicols*}
 % \printbibliography
 
 \end{document}

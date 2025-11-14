@@ -21,14 +21,17 @@ The files in this repository are organized into the following categories:
 
 ```shell
 ├── ref/         # reference materials and documentation
-└── [FOLDER]     # [DESCRIPTION]
+└── labs/        # class labs 
 ```
 
 ### Labs
 
-| Lab   | Path     |
-|-------|----------|
-| [LAB] | `[PATH]` |
+| Lab                             | Description                                                                                         |
+|---------------------------------|-----------------------------------------------------------------------------------------------------|
+| `labs/lab01-bandits`            | Implementation and analysis of contextual multi-armed bandit algorithm.                             |
+| `labs/lab02-environment`        | Implementationa and analysis of two simple custom RL environments.                                  |
+| `labs/lab03-classical`          | Implementation and analysis of SARSA and Monte Carlo RL algorithms in custom racetrack environment. |
+| `labs/lab04-classical_v_moderm` | Implementation and analysis of Q-Learning and DQN algorithms in custom battleship environment.      |
 
 ## Tools and Technologies
 
